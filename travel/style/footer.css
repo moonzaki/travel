@@ -1,0 +1,36 @@
+.link-instagram {
+    background-image: url(../assets/svg/akar-icons_instagram-fill.svg);
+    display: block;
+    width: 33.65px;
+    height: 33.65px;
+}
+
+.link-youtube {
+    display: block;
+    width: 33.65px;
+    height: 33.65px;
+    background-image: url(../assets/svg/akar-icons_video.svg);
+}
+
+.link-twitter {
+    display: block;
+    width: 33.65px;
+    height: 33.65px;
+    background-image: url(../assets/svg/akar-icons_twitter-fill.svg);
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20%;
+}
+
+.social__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 8.1%;
+    gap: 23px;
+}

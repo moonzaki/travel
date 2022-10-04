@@ -1,0 +1,456 @@
+/* 1 */
+.wrapper__preview {
+    display: block;
+    max-height: 795px;
+    background-image: url(../assets/img/garrett-parker-big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.preview__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.preview__title {
+    margin: 8.473% 30% 0 8.334%;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #FFFFFF;
+}
+
+.preview__subtitle {
+    margin: 2.223% 10% 0 8.334%;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.preview__search {
+    margin: 3.223% 10% 17.6% 8.334%;
+    max-width: 892px;
+    height: 95px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    border-radius: 16px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 95px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    border-style: hidden;
+}
+.search-form__input {
+    width: 71.99%;
+    height: 100%;
+    border: none;
+    border-radius: 16px;
+    background-color: #ffffff00;
+    color: #F2785C;
+    border: none;
+    outline: none;
+}
+
+.search-form__input::placeholder {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    text-indent: 1.6em;
+    color: #F2785C;
+}
+
+.search-form__preview {
+    padding: 10px 32px 9px 30px;
+    gap: 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+/* 2 */
+.steps__wrapper {
+    margin-top: 5.6%;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.steps__content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.75%;
+    margin-bottom: 6.7%;
+}
+
+.first-step {
+    display: flex;
+    width: 33.33%;
+    justify-content: center;
+}
+
+.second-step {
+    display: flex;
+    width: 33.33%;
+    justify-content: center;
+}
+
+.left--block {
+    padding-left: 6%;
+}
+
+.center--block {
+    padding-left: 0.1%;
+}
+
+.right--block {
+    padding-left: 6.7%;
+}
+
+.third-step {
+    display: flex;
+    width: 33.33%;
+
+}
+
+.steps__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__img-item {
+    width: 100px;
+    height: 100px;
+    background: #F2785C;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.steps__img-item:hover {
+    background-color: rgb(238, 106, 83);
+    outline: solid 1px rgba(13, 96, 111, 0.95);
+
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+.step-bike {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/svg/Vector_bike.svg);
+}
+
+.step-callendar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/svg/Vector_callendar.svg);
+
+}
+
+.step-air {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/svg/Vector_airplane.svg);
+}
+
+.step-text {
+    margin-top: 30px;   
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0D606F;
+}
+/* 3 */
+
+.destinations__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.slider__block {
+    flex-shrink: 0;
+    width: 100%;
+    margin-top: 3.2%;
+    max-width: 1440px;
+}
+/* .slider {
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    position: relative;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-height: 800px;
+} */
+.slider__content {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.slider__container {
+    display: flex;
+    /* justify-content: center; */
+    gap: 60px;
+}
+.slider__item {
+    border-radius: 16px;
+    max-width: 800px;
+    flex-shrink: 0;
+    width: 83%;
+    display: grid;
+}
+
+.slider__text {
+    grid-area: 1/1/2/2;
+    text-transform: uppercase;
+    width: 0;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    align-self: end;
+    height: 0;
+    text-transform: uppercase;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+
+
+.slider__item img {
+    width: 100%;
+    grid-area: 1/1/2/2;
+}
+
+.slider__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 1.69%;
+    margin-left: 0.2%;
+    margin-bottom: 2.75%;
+}
+
+.slider--button {
+    z-index: 1;
+    position: relative;
+    padding-left: 30px;
+    gap: 10px;
+    margin-left: 0.5%;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+    text-transform: capitalize;
+}
+
+.arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/svg/bi_arrow-right.svg);
+}
+
+/* 4 */
+
+.wrapper__stories {
+    margin-top: 5.6%;
+    text-align: center;
+} 
+
+.stories__content {
+    margin-top: 2.7%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/Rectangle_27.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 61px;
+}
+
+.stories__item {
+    padding-left: 8.334%;
+    padding-right: 8.334%;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    padding-bottom: 2%;
+}
+
+.stories__bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7);
+    padding-bottom: 2.9%;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 63%;
+
+}
+
+.stories__img {
+    width: 400px;
+    height: 250px;
+}
+
+.item--one {
+    padding-top: 2.8%;
+}
+
+.item--four {
+    padding-bottom: 3%;
+}
+
+.stories__title {
+    margin: 0;
+    margin-bottom: 3%;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #0D606F;
+}
+
+.stories__text {
+    margin: 0;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0D606F;
+}
+
+.stories__link {
+    margin: 0;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0D606F;
+}
+
+.thai {
+
+
+    background-image: url(../assets/img/thai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+}
+
+.utah {
+    display: block;
+    background-image: url(../assets/img/utah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+}
+
+.mountains {
+    display: block;
+    background-image: url(../assets/img/mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+}
+
+.journey {
+    display: block;
+    background-image: url(../assets/img/journey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+}
+
+.stories-button {
+    padding-left: 28px;
+    gap: 10px;
+    padding-right: 3%;
+    margin-left: 0.5%;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+    text-transform: capitalize;
+}
+
+.rights {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
